@@ -1,4 +1,4 @@
-// flag.js：判一个值（基线：一律算未超）
+// flag.js：判一个值是否超阈值（严格大于才算，等于不算）
 export function above(value, threshold) {
-  return false;
+  return value > threshold;
 }
